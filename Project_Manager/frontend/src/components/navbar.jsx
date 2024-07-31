@@ -2,12 +2,15 @@ import { NavLink } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 
+
 const navbar = () => {
   return (
-    <div>
+    <div className="flex ">
         <nav>
             <div>
-                <img src="../assets/logoproject" alt="Project Manager" />
+                <img className="object-cover h-20 w-60" 
+                src="../../public/image/logoproject.png" 
+                alt="Project Manager" />
             </div>
             <li>Gerenciador</li>
             <li>Cadastro</li>
