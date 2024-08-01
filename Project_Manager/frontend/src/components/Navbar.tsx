@@ -28,6 +28,7 @@ const navbar = () => {
               <DropdownMenuItem><Link to="login">Login</Link></DropdownMenuItem>
               <DropdownMenuItem><Link to="dashboard">Dashboard</Link></DropdownMenuItem>
               <DropdownMenuItem><Link to="sobre">Sobre</Link></DropdownMenuItem>
+              <DropdownMenuItem><Link to="/">Sair <i className="bi bi-box-arrow-right"></i></Link></DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
 
