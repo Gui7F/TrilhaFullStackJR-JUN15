@@ -18,16 +18,16 @@ const navbar = () => {
             src="/image/logoproject.png"
             alt="Project Manager" />
         </div>
-        <div>
+        <div className="size-16 mr-20 flex items-center">
           <DropdownMenu>
-            <DropdownMenuTrigger>Open</DropdownMenuTrigger>
+            <DropdownMenuTrigger><i className="bi bi-list-task text-3xl"></i></DropdownMenuTrigger>
             <DropdownMenuContent>
-              <DropdownMenuLabel>Minha Conta</DropdownMenuLabel>
+              <DropdownMenuLabel>Menu</DropdownMenuLabel>
               <DropdownMenuSeparator />
-              <DropdownMenuItem>Cadastro</DropdownMenuItem>
-              <DropdownMenuItem>Login</DropdownMenuItem>
-              <DropdownMenuItem>Dashboard</DropdownMenuItem>
-              <DropdownMenuItem>Sobre</DropdownMenuItem>
+              <DropdownMenuItem><Link to="cadastro">Cadastro</Link></DropdownMenuItem>
+              <DropdownMenuItem><Link to="login">Login</Link></DropdownMenuItem>
+              <DropdownMenuItem><Link to="dashboard">Dashboard</Link></DropdownMenuItem>
+              <DropdownMenuItem><Link to="sobre">Sobre</Link></DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
 

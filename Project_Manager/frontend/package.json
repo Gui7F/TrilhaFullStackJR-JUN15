@@ -12,6 +12,7 @@
   "dependencies": {
     "@radix-ui/react-dropdown-menu": "^2.1.1",
     "@vitejs/plugin-react": "^4.3.1",
+    "bootstrap-icons": "^1.11.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.418.0",
