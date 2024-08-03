@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 
 //connection
 
-const dbUser = process.env.DB_Password
-const dbPass = process.env.DB_Password
+const dbUser = process.env.DB_User;
+const dbPass = process.env.DB_Password;
 
 const conn = async () =>{
 
@@ -22,7 +22,8 @@ const conn = async () =>{
         console.log(error.message)
     }
 
-    conn();
-
-    module.exports = conn;
 }
+
+conn();
+
+module.exports = conn;
